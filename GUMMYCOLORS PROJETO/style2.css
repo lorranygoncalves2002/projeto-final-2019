@@ -1,0 +1,140 @@
+body{
+    background-color: #ffd0f5;
+    background-image: url(fundo.png);
+    background-size: cover;
+}
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1{
+    background-color: #c570f7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffe1f3;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 1000px;
+    max-height: 500px;
+    margin: 0 auto;
+    
+    
+} 
+.container{ /* todos os menu's*/
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container1{ /* div do sobre*/
+    background-color:#ffe1f3 ;
+    padding: 15px;
+    max-height: 900px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: justify;
+    border-radius: 20px;
+    box-shadow:  0px 5px 20px  #52143fb9 ;
+} 
+.container2{ /* div dos produtos */
+    background-color: #ffe1f3;
+    padding: 15px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow:  0px 5px 20px  #52143fb9 ;
+}
+.sobre{ /* imagem no sobre*/
+    height: 200px;
+    width: 200px; 
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabeloazul{ /* imagem azul no contatos*/
+    height: 200px;
+    width: 300px; 
+    display: block;
+    margin-top: 10px;
+    float: right;
+    
+}
+.cabelorosa{ /* imagem rosa no contatos*/
+    height: 200px;
+    width: 300px; 
+    display: block;
+    margin-top: -260px;
+   float: right;
+}
+p{
+    max-width: 850px;
+    text-align: justify;
+    margin: auto;
+}
+footer{/* rodape*/
+    margin-top: 30px;
+}
+.materia{ /* fotos que não estão na home*/
+    height: 200px;
+    width: 200px;   
+}
+figure{/* figures que não estão na home*/
+    display: block;
+    padding: 10px;
+    opacity: 1;
+    max-width: 1000px;
+}
+figure:hover{
+    background-color: #c570f7;
+    transition: 500ms;
+}
+form{ /* formulario do contatos*/
+    background-color: #ffe1f3;
+    margin: auto;
+    padding:50px;
+    margin-top: 30px;
+    padding: 15px;
+    max-height: 900px;
+    max-width: 800px;
+    text-align: justify;
+    border-radius: 20px;
+    box-shadow:  0px 5px 20px  #52143fb9 ;
+    text-align: justify;
+}
+header{
+    background-color: #87c4ec;
+    color: #fff;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+nav{
+    background-color: #c570f7;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #132561;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: solid 2px rgb(82, 82, 180);
+}
+nav ul li a:hover{
+    background-color: #87c4ec;
+    color: #070707;
+    transition: 500ms;
+}
+img#logo{
+    height: 200px;
+    width: 200px;  
+}
